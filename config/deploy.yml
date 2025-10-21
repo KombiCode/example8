@@ -7,7 +7,7 @@ image: kombicode/example8
 # Deploy to these servers.
 servers:
   web:
-    - scw-breizh.itryrails.com
+    - scw-breizh.deochdauirviken.fr
   # job:
   #   hosts:
   #     - 192.168.0.1
@@ -19,7 +19,7 @@ servers:
 # Note: If using Cloudflare, set encryption mode in SSL/TLS setting to "Full" to enable CF-to-app encryption.
 proxy:
   ssl: true
-  host: kamalapp.itryrails.com
+  host: kamalapp.deochdauirviken.fr
 
 # Credentials for your image host.
 registry:
